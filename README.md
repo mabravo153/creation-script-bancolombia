@@ -3,6 +3,7 @@
 ## Modo de entrega
 - Crear fork, subir el trabajo al fork y hacer PR desde el fork hacia el repositorio original.
 - Montar el enlace del fork a la tarea de Q10.
+- Fecha máxima: 23 de abril de 2025.
   
 **NOTA:** De no cumplir estos dos requisitos, no podrá ser revisada la actividad.
 ## Descripción
