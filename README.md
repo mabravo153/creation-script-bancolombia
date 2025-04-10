@@ -1,5 +1,10 @@
 # Script de Creación de Base de Datos Bancaria
 
+## Modo de entrega
+- Crear fork, subir el trabajo al fork y hacer PR desde el fork hacia el repositorio original.
+- Montar el enlace del fork a la tarea de Q10.
+  
+**NOTA:** De no cumplir estos dos requisitos, no podrá ser revisada la actividad.
 ## Descripción
 
 Este script crea un esquema completo de base de datos para un sistema bancario, incluyendo tablas para clientes, cuentas, tarjetas y transacciones.
