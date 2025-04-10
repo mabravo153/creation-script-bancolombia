@@ -20,6 +20,21 @@ El modelo implementa herencia mediante tablas de especialización para:
 ## Contenido del Script
 
 ```sql
+/*
+ * SCRIPT DE CREACIÓN DE BASE DE DATOS BANCARIA
+ * ============================================
+ * 
+ * Este script crea un esquema completo de base de datos para un sistema bancario,
+ * incluyendo tablas para clientes, cuentas, tarjetas y transacciones.
+ * 
+ * El modelo implementa herencia mediante tablas de especialización para:
+ * - Cuentas (Ahorro y Corriente)
+ * - Transacciones (Depósito, Retiro y Transferencia)
+ *
+ * Autor: Jacobo Garcés
+ * Fecha: 2023
+ */
+
 -- ============================================================================
 -- SECCIÓN 1: ELIMINACIÓN DE TABLAS EXISTENTES
 -- ============================================================================
@@ -322,14 +337,14 @@ INSERT INTO Tarjeta (num_cuenta, numero_tarjeta, tipo_tarjeta, fecha_emision, fe
 (1000000010, '5310123456789012', 'debito', '2020-10-20', '2025-10-31'),
 (1000000010, '4216789012345678', 'credito', '2020-10-25', '2025-10-31'),
 (1000000011, '5311234567890123', 'debito', '2020-11-25', '2025-11-30'),
-(1000000011, '4217890123456789', 'credito', '2020-11-30', '2025-11-30'),
+(1000000011, '4217890133456789', 'credito', '2020-11-30', '2025-11-30'),
 (1000000012, '5312345678901234', 'debito', '2020-12-30', '2025-12-31'),
-(1000000012, '4218901234567890', 'credito', '2021-01-05', '2026-01-05');
+(1000000012, '4218909234567890', 'credito', '2021-01-05', '2026-01-05');
 
 -- Cliente 5: Pedro Gómez
 INSERT INTO Tarjeta (num_cuenta, numero_tarjeta, tipo_tarjeta, fecha_emision, fecha_expiracion) VALUES
 (1000000013, '5313456789012345', 'debito', '2021-01-05', '2026-01-31'),
-(1000000013, '4219012345678901', 'credito', '2021-01-10', '2026-01-31'),
+(1000000013, '4219012345671901', 'credito', '2021-01-10', '2026-01-31'),
 (1000000014, '5314567890123456', 'debito', '2021-02-10', '2026-02-28'),
 (1000000014, '4220123456789012', 'credito', '2021-02-15', '2026-02-28'),
 (1000000015, '5315678901234567', 'debito', '2021-03-15', '2026-03-31'),
